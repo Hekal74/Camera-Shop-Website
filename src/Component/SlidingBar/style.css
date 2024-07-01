@@ -1,0 +1,52 @@
+.sliding-bar-container {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y:
+}
+
+.sliding-bar {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.label {
+  width: 100%; /* Ensure the label takes full width */
+}
+
+.slidertitle {
+  margin-top: -1%;
+  text-align: left; /* Center the title */
+}
+
+.slider {
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.3s ease-in-out;
+  min-width: fit-content; /* Ensure the slider width fits its content */
+}
+
+.slider img {
+  width: 320px;
+  height: 200px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.img_slider {
+  margin-right: 20px;
+  color: white;
+  border-radius: 10px; /* Adjust border-radius to match image */
+}
+
+.price {
+  width: 300px; /* Ensure the price container matches the image width */
+  margin-top: -25px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}

@@ -1,0 +1,61 @@
+.about-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    text-align: left;
+  }
+  
+  .content {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    
+  }
+  
+  .info-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .info-desc {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .info-dir {
+    font-size: 24px;
+    color: #eb5424;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .info-list {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+  }
+  
+  .info-list li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .team-member {
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .team-member p {
+    margin: 5px 0;
+    text-align: left;
+  }
+  
+  .team-member strong {
+    font-weight: bold;
+    text-align: left;
+  }
+  

@@ -1,0 +1,135 @@
+
+.Navbarsection 
+{
+    background-color: transparent;
+    background-image: url("../../../public/images/Navbar/wp2505911.webp");
+    overflow: hidden;
+    padding:0px 50px;
+    position:relative;
+    color:#fff;
+    font-weight:600;
+   width:102.8%;
+   position:fixed;
+}
+
+.bord
+{
+    position: absolute;
+    border-bottom: 1px solid white;
+    width: 94%;
+    top: 80px;
+}
+
+.Containerr 
+{
+    width : 100%;
+    margin-left: 0%; 
+
+}
+
+.Logo
+{
+    width:50%;  
+    float:left;
+}
+
+
+.LogoText 
+{
+    /* background: linear-gradient(45deg,#f02e2e,#ffd4e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.Ulist 
+{
+    float:right;
+    width:40%;
+    margin-top: 3.3%;
+    float:right;
+    list-style-type: none;
+    padding-top: 2px;
+}
+
+.ListItem 
+{
+    /* padding: 0px; */
+    display: inline-block;
+    border: solid  ;
+    border-width: 0px 1px 0px 0px;
+    /* line-height: 0.5; */
+    /* box-shadow: 0px 0px 0px 0px white; */
+    
+}
+   
+
+
+.Anchor
+{
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding: 0px 15px;
+    /* font-weight: bold; */
+}
+
+.Anchor:hover
+{
+    color:#eb5424;
+}
+
+.LINK 
+{
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    padding: 0px 15px;
+    /* font-weight: bold; */
+}
+
+.LINK:hover
+{
+    color:#eb5424;
+}
+
+
+
+
+
+.Icon
+{
+
+    color:#c03030;
+    float: left;
+    margin-left:-2%;
+    margin-right: 1%;
+    margin-top:3.2%;
+    overflow: hidden;
+    animation: heartbeat 1s  ease-in-out infinite;
+} 
+
+@keyframes heartbeat
+{
+
+0% {
+        transform:scale(1);
+}
+
+50% {
+        transform:scale(1.3);
+}
+
+100% {
+        transform:scale(1);
+}
+
+}
+
+/* .Icon:hover
+{
+    animation: heartbeat 0.6s infinite;
+} */

@@ -1,0 +1,11 @@
+.contain
+{
+    background-image: url("../../../public/images/Navbar/wp2505911.webp");
+    height: 700px; 
+    /* background-image: url("images/Navbar/wp2505911.webp"); */
+    background-size: cover;
+    background-position:center ;
+    text-align: center;
+    background-attachment: fixed;
+    padding-top:1%;
+}
