@@ -22,7 +22,7 @@
 
 .Containerr 
 {
-    width : 100%;
+    width : 96%;
     margin-left: 0%; 
 
 }
@@ -128,8 +128,17 @@
 }
 
 }
+@media (max-width: 768px) {
+    .LogoText {
+        font-size: 28px;
+    }
 
-/* .Icon:hover
-{
-    animation: heartbeat 0.6s infinite;
-} */
+    .Ulist {
+        width: 60%;
+    }
+
+    .Anchor,
+    .LINK {
+        padding: 0px 10px;
+    }
+}

@@ -1,20 +1,12 @@
+import React from 'react';
+import Home from './../Home';
 
-import React , {Component} from 'react';
-import {Link} from 'react-router-dom'
-// import './style.css';
-import Home from './../Home'
-import SlidingBar from '../SlidingBar';
-
-
-
-class Index extends Component {
-  render(){
+const Index = () => {
   return (
     <div className='contain'>
-    <Home />
-      
+      <Home />
     </div> 
-  )}
+  );
 }
 
 export default Index;

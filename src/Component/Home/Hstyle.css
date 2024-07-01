@@ -1,5 +1,4 @@
-
-  .Newbutton
+.Newbutton
   {
     padding: 7px 7px;
     /* background: linear-gradient(45deg, #002cff, #7aff005e); */
@@ -45,4 +44,19 @@
 .prev-button:hover,
 .next-button:hover {
     background-color: #666;
+}
+@media (max-width: 768px) {
+  .Newbutton {
+      padding: 10px 20px;
+      font-size: 16px;
+  }
+
+  .Newbutton:hover {
+      padding: 10px 30px;
+  }
+
+  .prev-button,
+  .next-button {
+      padding: 4px 8px;
+  }
 }
