@@ -2,6 +2,7 @@
   "name": "gp",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hekal74.github.io/Camera-Shop-Website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -14,6 +15,7 @@
     "react-swipeable": "^7.0.1",
     "styled-components": "^6.1.8",
     "web-vitals": "^2.1.4"
+    
   },
   "scripts": {
     "start": "react-scripts start",
